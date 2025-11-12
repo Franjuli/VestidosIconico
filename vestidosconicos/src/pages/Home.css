@@ -1,6 +1,21 @@
-.home {
-    background: linear-gradient(135deg, #fff5f9, #fffce8);
-    min-height: 100vh;
-    padding: 20px;
-  }
-  
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px; /* deixa um espacinho abaixo do Header */
+  background-color: #fff6f8; /* tom suave que combina com o Header */
+  min-height: 100vh;
+}
+
+.banner-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.intro-section {
+  max-width: 900px;
+  text-align: center;
+  padding: 20px;
+}

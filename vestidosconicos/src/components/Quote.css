@@ -1,0 +1,14 @@
+.quote {
+    text-align: center;
+    margin-top: 60px;
+    font-style: italic;
+    color: #8a4b55;
+    font-family: "Playfair Display", serif;
+  }
+  
+  .quote span {
+    display: block;
+    margin-top: 8px;
+    color: #b57281;
+  }
+  

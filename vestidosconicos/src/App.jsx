@@ -1,12 +1,13 @@
-
-
-import Home from "./pages/home";
 import React from "react";
-import "./App.css";
+import Header from "./components/header";
+import Home from "./pages/home";
+import Contato from "./pages/Contact";
 
 function App() {
   return (
-    <Home/>
+    <div>
+      <Home />
+    </div>
   );
 }
 

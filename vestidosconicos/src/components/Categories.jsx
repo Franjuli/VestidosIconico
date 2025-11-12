@@ -1,15 +1,16 @@
 import React from "react";
+import CategoryCard from "./CategoryCard";
 import "./Categories.css";
 
 export default function Categories() {
   return (
     <section className="categories">
-      <h2>Categorias</h2>
+      <h2>Explore Categorias</h2>
       <div className="category-grid">
-        <div className="category-card">🎬 Cinema</div>
-        <div className="category-card">📺 Séries</div>
-        <div className="category-card">⭐ Celebridades</div>
-        <div className="category-card">🕰️ Por Década</div>
+        <CategoryCard icon="" title="Vestidos Clássicos" />
+        <CategoryCard icon="" title="Do Cinema" />
+        <CategoryCard icon="" title="De Época" />
+        <CategoryCard icon="" title="Contos de Fadas" />
       </div>
     </section>
   );

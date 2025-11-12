@@ -1,0 +1,115 @@
+.contact-page {
+    background-color: #fff6f8;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+  }
+  
+  .contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding: 40px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 1000px;
+    margin-top: 20px;
+  }
+  
+  /* Coluna esquerda */
+  .contact-left {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .contact-left h2 {
+    color: #77204d;
+    margin-bottom: 10px;
+  }
+  
+  .contact-left p {
+    color: #444;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-top: 10px;
+    color: #77204d;
+    font-weight: bold;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e6a5c0;
+    border-radius: 10px;
+    margin-top: 5px;
+    font-family: inherit;
+  }
+  
+  .contact-form button {
+    margin-top: 15px;
+    background-color: #d46c92;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .contact-form button:hover {
+    background-color: #b24d75;
+  }
+  
+  /* Coluna direita */
+  .contact-right {
+    flex: 1;
+    min-width: 300px;
+    background-color: #ffe4ef;
+    padding: 30px;
+    border-radius: 15px;
+  }
+  
+  .contact-right h3 {
+    color: #77204d;
+    margin-bottom: 15px;
+  }
+  
+  .contact-info p {
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  .social-links h4 {
+    margin-top: 20px;
+    color: #77204d;
+  }
+  
+  .social-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .social-links li {
+    margin-bottom: 8px;
+  }
+  
+  .social-links a {
+    color: #b24d75;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .social-links a:hover {
+    color: #77204d;
+  }
+  
+  

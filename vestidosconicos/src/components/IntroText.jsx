@@ -5,16 +5,15 @@ export default function IntroText() {
   return (
     <section className="intro-text">
       <p>
-        Bem-vindo(a) ao <strong>Once Upon a Dress</strong> — uma revista virtual
-        que celebra vestidos icônicos da cultura pop e do cinema.
+        Bem-vindo(a) ao <strong>Once Upon a Dress</strong> — um espaço onde moda e
+        fantasia se encontram em cada detalhe.
       </p>
       <p>
-        Explore coleções inspiradas em clássicos como <em>Grease</em>, 
-        <em> Breakfast at Tiffany’s</em> e muito mais.
+        Explore coleções inspiradas em clássicos que marcaram o cinema e o coração.
       </p>
       <p className="quote">
         “Give a girl the right dress and she can conquer the world.”  
-        <span>— Edith Head</span>
+        <span> — Edith Head</span>
       </p>
     </section>
   );
