@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Header from "../components/header";
+import Header from "../components/Header";
 import Banner from "../components/Banner";
 import IntroText from "../components/IntroText";
 import Categories from "../components/Categories";
